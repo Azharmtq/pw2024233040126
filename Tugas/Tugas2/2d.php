@@ -20,12 +20,11 @@
         height:100px;
     } 
     .dua{
-     background-color: white;
+     background-color: black;
      
     }
     .tiga{
-        background-color: black;
-        color:white;
+        background-color: white;
     }
     div {
         width: fit-content;
