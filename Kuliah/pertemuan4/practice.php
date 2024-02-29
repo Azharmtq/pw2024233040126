@@ -23,10 +23,12 @@ function hitung_2_volume ($a,$b) {
     $volume2 = hitung_volume($a)+hitung_volume($b);
     return $volume2;
 }
-echo hitung_2_volume($c,$d);
-
+echo hitung_2_volume($c,$d)."<br>";
+function mana_volume ($a,$b) {
+    echo hitung_2_volume($a,$b);
+}
+mana_volume($b,$c);
 
 
 //DATE😁
-echo date
 ?>
