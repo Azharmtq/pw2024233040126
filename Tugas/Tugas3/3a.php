@@ -1,19 +1,22 @@
-<?php
-// set the default timezone to use.
-date_default_timezone_set('UTC');
-// Prints something like: Monday
-echo date("l")."</br>";
+<?php 
+$a = 10;
+$b=3.14;
 
-// Prints something like: Monday 8th of August 2005 03:12:46 PM
-echo date('l jS \of F Y h:i:s A')."</br>";
 
-// Prints: July 1, 2000 is on a Saturday
-echo "July 1, 2000 is on a " . date("l", mktime(0, 0, 0, 7, 1, 2000))."</br>";
+echo "<br><b>Mengitung Luas Lingkaran</b><br><br>";
+function hitungLuasLingkaran($a,$b){
+    $luaslingkaran =$b*$a*$a;
+    return $luaslingkaran;
+}
+echo "Jari-Jari = ". $a ."cm.<br>";
+echo "Luas Lingkaran = ".$luas = hitungLuasLingkaran($a,$b)."cm <sup>2</sup> <br> <hr>";
 
-/* use the constants in the format parameter */
-// prints something like: Wed, 25 Sep 2013 15:28:57 -0700
-echo date(DATE_RFC2822)."</br>";
+echo "<br><b>Mengitung Keliling Lingkaran</b><br><br>";
+function hitungKelilingLingkaran($a,$b){
+    $kelilinglingkaran =2*$b*$a;
+    return  $kelilinglingkaran ;
+}
+echo "Jari-Jari = ". $a * 2 ."cm.<br>";
+echo "keliling Lingkaran = ".$keliling = hitungkelilingLingkaran($a,$b* 2)."cm <sup>2</sup> <br> <hr>";
 
-// prints something like: 2000-07-01T00:00:00+00:00
-echo date(DATE_ATOM, mktime(0, 0, 0, 7, 1, 2000))."</br>";
 ?>
