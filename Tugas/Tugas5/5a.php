@@ -2,74 +2,74 @@
 
 $mahasiswa = [
 [
-    'gambar' => 'ironman.jpg',
-    'nrp' => '233040100',
-    'nama' => 'Iron Man',
-    'email' => 'ironman@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'apple.png',
+    'nrp' => '233040112',
+    'nama' => 'Apple',
+    'email' => 'apple@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'captainamerica.jpg',
-    'nrp' => '233040101',
-    'nama' => 'Captain America',
-    'email' => 'captainamerica@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'asus.png',
+    'nrp' => '233040111',
+    'nama' => 'Asus',
+    'email' => 'asus@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'antman.jpg',
-    'nrp' => '233040102',
-    'nama' => 'Ant Man',
-    'email' => 'antman@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'huawei.png',
+    'nrp' => '233040122',
+    'nama' => 'Huawei',
+    'email' => 'Huawei@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'hulk.jpg',
-    'nrp' => '233040103',
-    'nama' => 'Hulk',
-    'email' => 'hulk@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'lenovo.png',
+    'nrp' => '233040123',
+    'nama' => 'Lenovo',
+    'email' => 'lenovo@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'thor.jpg',
-    'nrp' => '233040104',
-    'nama' => 'Thor',
-    'email' => 'thor@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'oppo.png',
+    'nrp' => '233040124',
+    'nama' => 'Oppo',
+    'email' => 'Oppo@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'vision.jpg',
-    'nrp' => '233040105',
-    'nama' => 'Vision',
-    'email' => 'vision@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'realme.png',
+    'nrp' => '233040125',
+    'nama' => 'Realme',
+    'email' => 'Realme@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'spiderman.jpg',
-    'nrp' => '233040106',
-    'nama' => 'Spiderman',
-    'email' => 'kazutokirigaya@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'samsung.png',
+    'nrp' => '233040126',
+    'nama' => 'Samsung',
+    'email' => 'samsung@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'scarletwitch.jpg',
-    'nrp' => '233040107',
-    'nama' => 'Scarlet Witch',
-    'email' => 'scarletwitch@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'sony.png',
+    'nrp' => '233040127',
+    'nama' => 'Sony',
+    'email' => 'sony@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'blackpanther.jpg',
-    'nrp' => '233040108',
-    'nama' => 'Black Panther',
-    'email' => 'shineinouzen@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'vivo.png',
+    'nrp' => '233040128',
+    'nama' => 'Vivo',
+    'email' => 'vivo@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 [
-    'gambar' => 'blackwidow.jpg',
-    'nrp' => '233040109',
-    'nama' => 'Black Widow',
-    'email' => 'blackwidow@gmail.com',
-    'jurusan' => 'Teknik Informatika'
+    'gambar' => 'xiaomi.png',
+    'nrp' => '233040129',
+    'nama' => 'Xiaomi',
+    'email' => 'xiaomi@gmail.com',
+    'jurusan' => 'Brand HP'
 ],
 
 ];
