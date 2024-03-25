@@ -22,6 +22,8 @@
 
         .baris {
             display: flex;
+            width:fit-content;
+            height:fit-content;
         }
 
         .baris1 {

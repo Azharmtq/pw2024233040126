@@ -12,7 +12,6 @@
             color: white;
             display: flex;
             border-radius: 15px;
-            margin: 2px;
         }
 
         .box h2 {
@@ -22,6 +21,8 @@
 
         .baris {
             display: flex;
+            width:fit-content;
+            height:fit-content;
         }
 
         .baris1 {
