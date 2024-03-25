@@ -1,3 +1,12 @@
+<?php 
+session_start();
+if (isset($_SESSION["username"])) {
+    $username = $_SESSION["username"];
+} else {
+    header("Location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +78,7 @@
     <div class="container">
         <div class="content">
             <div class="profile"></div>
-            <h2>Selamat Datang Admin</h2>
+            <h2>Selamat Datang Admin <?= $username ?></h2>
             <button><a href="Login.php">Logout</a></button>
         </div>
     </div>
