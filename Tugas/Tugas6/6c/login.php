@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if (isset($_POST["submit"])) {
-    if ($_POST["username"] == "azhar" && $_POST["password"] == "126") {
+    if ($_POST["username"] == "Azhar" && $_POST["password"] == "126") {
         $_SESSION["username"] = $_POST["username"];
         header("Location: admin.php");
         exit;
