@@ -12,13 +12,18 @@ $nrp = $_GET['nrp'];
 $sql = "DELETE FROM mahasiswa WHERE nrp = '$nrp'";
 
 if ($koneksi->query($sql) === TRUE) {
-    echo "Data berhasil dihapus.";
+    echo "
+    <script>
+    alert('data berhasil dihapus!');
+    document.location.href = 'index.php';
+    </script>
+    ";
 } else {
-    echo "Error: " . $koneksi->error;
+    echo "<script>
+    aler('data gagal dihapus!');
+    document.location.href = 'index.php';
+    </script>";
 }
 
 $koneksi->close();
-
-// Redirect ke halaman utama
-header("Location: index.php");
 exit();
